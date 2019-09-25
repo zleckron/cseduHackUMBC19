@@ -5,12 +5,41 @@ __We're doing everything fast, here are the notes__
 
 __In Sublime__
 - Make a file and save it as `index.html` (the "index" part of the name is not very significant but the html file extension is)
+- With your saved .html file open, type `<ht` then hit tab to add standard HTML tags automatically
+_HTML Fast Facts!_
+1. Pretty much everything in HTML is in _tags_ enclosed in an opening and closing tag with angle brackets!
+    - Normal HTML tag to make a paragraph: `<p>literal string content</p>`
+    - Tag to make a line break (doesn't ): `<br>`
+  You can assume that most tags require a closing tag like `</p>` but there are exceptions like `<br>` to look out for
+2. Strings don't need to go in quotes! See above paragraph example - the words "literal string content" will appear on the HTML page.
+
+Tables in HTML
+
+
+- File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
+
+How can we make
+__Testing__
+
+__Uploading to Git__
+
+__Programming Practices__
+Accessibility
+We want to encourage good programming practices. To make your website appealing to a variety of users, you should follow some compliance guidelines.
+1. Article with an easy-to-understand list of ADA compliance website issues (I recommend you skip to the issues): https://www.digitalauthority.me/resources/ada-compliance-website/
+2. Check for at least 4.5:1 ratio of color contrast: https://webaim.org/resources/contrastchecker/
+3. Having good alternative text for images and descriptive link text is important!
+    - Alt text in HTML image tags looks like this: `<img src="truegrit.jpg" alt="Chesapeake Bay Retriever True Grit, best mascot in Maryland">`
+    - Descriptive link text looks like this: `<a href="https://www.hackumbc.org/">HackUMBC Home Page 2019</a>`
+
+__Copyrights & Legal Stuff__
+
+__Tips for Speed__
 HTML shortcuts in Sublime
-1. Auto Tags: With your saved .html file open, type `!` then hit tab to add standard HTML tags automatically
+1. Auto Tags: With your saved .html file open, type `<ht` then hit tab to add standard HTML tags automatically
 2. Comments: use `Cmd-/` to comment out the current line
 3. Link your JavaScript file: type `<sc` then tab. Edit "text/javascript" to the _relative_ path to your .js file (see below). I called mine `script.js`
 
-- File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
 JavaScript shortcuts in Sublime
 1. type `fun` and hit tab to fill out the syntax of a JavaScript function:
     ```javascript
@@ -23,14 +52,3 @@ CSS shortcuts in Sublime
 1. There are none! Unless you install a package to autocomplete
 2. (I do __not recommend installing this during the workshop__)
 3. Here's a link: [Emmet] (https://packagecontrol.io/packages/Emmet)
-
-__Programming Practices__
-Accessibility
-We want to encourage good programming practices. To make your website appealing to a variety of users, you should follow some compliance guidelines.
-1. Article with an easy-to-understand list of ADA compliance website issues (I recommend you skip to the issues): https://www.digitalauthority.me/resources/ada-compliance-website/
-2. Check for at least 4.5:1 ratio of color contrast: https://webaim.org/resources/contrastchecker/
-3. Having good alternative text for images and descriptive link text is important!
-    - Alt text in HTML image tags looks like this: `<img src="truegrit.jpg" alt="Chesapeake Bay Retriever True Grit, best mascot in Maryland">`
-    - Descriptive link text looks like this: `<a href="https://www.hackumbc.org/">HackUMBC Home Page 2019</a>`
-
-__Copyrights & Legal Stuff__
