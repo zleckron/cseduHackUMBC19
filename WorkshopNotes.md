@@ -1,10 +1,13 @@
 __We're doing everything fast, here are the notes__
 - Download Sublime3: [sublime.com/3](https://www.sublimetext.com/3)
-- save file type to .html
+- Download Sublime Merge (for Git): [sublimemerge.com] (https://www.sublimemerge.com/)
+- Clone _this_ repository: https://github.com/zleckron/cseduHackUMBC19.git
+__In Sublime__
+- Make a file and save it as `index.html` (the "index" part of the name is not very significant but the html file extension is)
 HTML shortcuts in Sublime
-1. Auto Tags: Add required tags automatically: With your saved .html file open, type ! then hit tab to
-2. Comment: use Cmd-/ to comment out the current line
-3. Link your JavaScript file: type <sc then tab. Edit "text/javascript" to the _relative_ to your .js file (see below). I called mine script.js
+1. Auto Tags: With your saved .html file open, type `!` then hit tab to add standard HTML tags automatically
+2. Comments: use `Cmd-/` to comment out the current line
+3. Link your JavaScript file: type `<sc` then tab. Edit "text/javascript" to the _relative_ path to your .js file (see below). I called mine `script.js`
 
 - File > New or Cmd-N to make a new file, save it to .js (JavaScript)
 JavaScript shortcuts in Sublime
@@ -13,7 +16,7 @@ JavaScript shortcuts in Sublime
 CSS shortcuts in Sublime
 1. There are none! Unless you install a package to autocomplete
 2. (I do __not recommend installing this during the workshop__)
-3. (Here's a link: https://packagecontrol.io/packages/Emmet)
+3. (Here's a link: [Emmet] (https://packagecontrol.io/packages/Emmet))
 
 __Programming Practices__
 Accessibility
