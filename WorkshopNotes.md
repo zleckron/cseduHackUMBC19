@@ -12,7 +12,12 @@ HTML shortcuts in Sublime
 
 - File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
 JavaScript shortcuts in Sublime
-1. type 'fun' and hit tab to demo the syntax of a function
+1. type `fun` and hit tab to fill out the syntax of a JavaScript function:
+    ```javascript
+    function function_name(argument) {
+    	// body...
+    }
+    ```
 
 CSS shortcuts in Sublime
 1. There are none! Unless you install a package to autocomplete
