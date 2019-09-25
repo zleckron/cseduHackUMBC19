@@ -17,18 +17,22 @@ _HTML Fast Facts!_
 Tables in HTML
 ```
 <table>
-		<tr>
-			<th>header for first column</th>
-			<th>header for second column</th>
-			... <!-- repeat for each column in your table -->
-		</tr>
-		<tr>
-			<td>data for first column, first row</td> <!-- td = table data -->
-			<td>data for second column, first row</td>
-			<td>Hacker Floor</td>
-		</tr>
+	<tr>
+		<th>header for first column</th>
+		<th>header for second column</th>
+		... <!-- repeat for each column in your table -->
+	</tr>
+	<tr>
+		<td>data for first column, first row</td> <!-- td = table data -->
+		<td>data for second column, first row</td>
+		<td>Hacker Floor</td>
+	</tr>
 ```
+_Making it look good_
+- File > New or `Cmd-n` to make a new file, save it to styles.css (CSS style sheet) in the same folder as index.html
 
+
+_Making it do things_
 - File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
 
 

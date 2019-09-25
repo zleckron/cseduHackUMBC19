@@ -1,0 +1,17 @@
+
+nav a {
+	background-color: black;
+	color:#D2D2D2;
+	text-decoration: none;
+	padding: 10px 0;
+	display: block;
+	float: left;
+	width: 20%;
+	text-align: center;
+	box-sizing: border-box;
+	}
+nav a:hover, nav a:active, nav a.currentpage {
+	background-color:#707070;
+	color:white;
+}
+		
