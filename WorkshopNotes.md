@@ -1,5 +1,5 @@
 __We're doing everything fast, here are the notes__
-- install Sublime
+- Download Sublime3: [sublime.com/3](https://www.sublimetext.com/3)
 - save file type to .html
 HTML shortcuts in Sublime
 1. Auto Tags: Add required tags automatically: With your saved .html file open, type ! then hit tab to
