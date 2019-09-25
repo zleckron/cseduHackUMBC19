@@ -6,6 +6,7 @@ __We're doing everything fast, here are the notes__
 __In Sublime__
 - Make a file and save it as `index.html` (the "index" part of the name is not very significant but the html file extension is)
 - With your saved .html file open, type `<ht` then hit tab to add standard HTML tags automatically
+
 _HTML Fast Facts!_
 1. Pretty much everything in HTML is in _tags_ enclosed in an opening and closing tag with angle brackets!
     - Normal HTML tag to make a paragraph: `<p>literal string content</p>`
@@ -19,6 +20,7 @@ Tables in HTML
 - File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
 
 How can we make
+
 __Testing__
 
 __Uploading to Git__
