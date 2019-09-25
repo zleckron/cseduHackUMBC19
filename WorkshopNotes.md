@@ -15,11 +15,22 @@ _HTML Fast Facts!_
 2. Strings don't need to go in quotes! See above paragraph example - the words "literal string content" will appear on the HTML page.
 
 Tables in HTML
-
+```
+<table>
+		<tr>
+			<th>header for first column</th>
+			<th>header for second column</th>
+			... <!-- repeat for each column in your table -->
+		</tr>
+		<tr>
+			<td>data for first column, first row</td> <!-- td = table data -->
+			<td>data for second column, first row</td>
+			<td>Hacker Floor</td>
+		</tr>
+```
 
 - File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
 
-How can we make
 
 __Testing__
 
@@ -54,3 +65,6 @@ CSS shortcuts in Sublime
 1. There are none! Unless you install a package to autocomplete
 2. (I do __not recommend installing this during the workshop__)
 3. Here's a link: [Emmet] (https://packagecontrol.io/packages/Emmet)
+
+__FYI: Understanding all this__
+- How to Git: https://guides.github.com/activities/hello-world/
