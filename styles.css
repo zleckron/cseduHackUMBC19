@@ -1,4 +1,11 @@
+/*Style our h1 header*/
+h1 {
+	padding: 10px 0;
+	float:center;
+	font-size: 200px;
+}
 
+/*Style the links in our navbar*/
 nav a {
 	background-color: black;
 	color:#D2D2D2;
@@ -6,7 +13,8 @@ nav a {
 	padding: 10px 0;
 	display: block;
 	float: left;
-	width: 20%;
+	/*25% because we have four options taking out equal space*/
+	width: 25%;
 	text-align: center;
 	box-sizing: border-box;
 	}
@@ -14,4 +22,34 @@ nav a:hover, nav a:active, nav a.currentpage {
 	background-color:#707070;
 	color:white;
 }
-		
+
+a {
+	background-color: black;
+	padding: 10px 0;
+	display: block;
+	color:#D2D2D2;
+}
+
+button {
+	background-color: transparent;
+	color: white;
+	font-size: 18px;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+button:hover, button:active {
+	background-color: white;
+	color:black;
+}
+
+body {
+	background: url("adrian-infernus-unsplash.jpg");
+	/*My background image is really big and I want to see all of it*/
+	background-size: 100%;
+	color: white;
+	font-family: Arial;
+	margin: 0px;
+}

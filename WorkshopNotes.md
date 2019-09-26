@@ -27,10 +27,13 @@ Tables in HTML
 		<td>data for second column, first row</td>
 		<td>Hacker Floor</td>
 	</tr>
+</table>
 ```
 _Making it look good_
 - File > New or `Cmd-n` to make a new file, save it to styles.css (CSS style sheet) in the same folder as index.html
-
+- CSS rule syntax:
+- Color picker: [htmlcolorcodes.com](https://htmlcolorcodes.com/color-picker/)
+- Photos that are safe to use: [Unsplash.com] (https://unsplash.com/)
 
 _Making it do things_
 - File > New or `Cmd-n` to make a new file, save it to .js (JavaScript)
@@ -50,6 +53,7 @@ We want to encourage good programming practices. To make your website appealing 
     - Descriptive link text looks like this: `<a href="https://www.hackumbc.org/">HackUMBC Home Page 2019</a>`
 
 __Copyrights & Legal Stuff__
+1. Credit photos! Even though you should be using photos that are free, it's courteous to credit the photographer
 
 __Tips for Speed__
 HTML shortcuts in Sublime
