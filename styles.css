@@ -1,8 +1,8 @@
 /*Style our h1 header*/
 h1 {
-	padding: 10px 0;
+	padding: 0px 0;
 	float:center;
-	font-size: 200px;
+	font-size: 100px;
 }
 
 /*Style the links in our navbar*/
@@ -23,6 +23,7 @@ nav a:hover, nav a:active, nav a.currentpage {
 	color:white;
 }
 
+
 a {
 	background-color: black;
 	padding: 10px 0;
@@ -30,20 +31,25 @@ a {
 	color:#D2D2D2;
 }
 
-button {
+button, button a {
 	background-color: transparent;
 	color: white;
 	font-size: 18px;
+	padding: 10px;
 }
-
-table, th, td {
-  border: 1px solid white;
+button a:hover {
+	/*font color of text on button*/
+	color: black;
 }
-
 button:hover, button:active {
 	background-color: white;
 	color:black;
 }
+table, th, td {
+  border: 1px solid white;
+}
+
+
 
 body {
 	background: url("adrian-infernus-unsplash.jpg");
