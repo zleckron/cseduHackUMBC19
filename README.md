@@ -59,8 +59,13 @@ _HTML Fast Facts!_
     - Normal HTML tag to make a paragraph: `<p>literal string content</p>`
     - Tag to make a line break (doesn't ): `<br>`
   You can assume that most tags require a closing tag like `</p>` but there are exceptions like `<br>` to look out for
-2. Strings don't need to go in quotes! See above paragraph example - the words "literal string content" will appear on the HTML page.
+2. Strings don't need to go in quotes! See above paragraph example - the words "literal string content" will appear on the HTML page.  
 
+Headers in HTML
+```
+<!-- header sizes range from the largest <h1></h1> to smallest <h6></h1>
+<h1>Big header</h1>
+```  
 Tables in HTML
 ```
 <table>
@@ -72,27 +77,59 @@ Tables in HTML
 	<tr>
 		<td>data for first column, first row</td> <!-- td = table data -->
 		<td>data for second column, first row</td>
-		<td>Hacker Floor</td>
+		... <!-- repeat for each column in your table -->
 	</tr>
+  .
+  .
+  .
+  <!-- repeat <tr></tr> for each row in your table -->
 </table>
+```  
+Buttons in HTML  
+(you can put an image in an HTML button too but I won't be covering that right now)  
 ```
+<!-- buttons with text -->
+<button>LABEL</button>
+<button><a href="pastelinkhere" target="_blank">LABEL</a></button>
+```  
+Navigation Bars in HTML  
+(here we are linking to different sections in one file; you can also link to different HTML pages by specifying their path)
+```
+<nav>
+  <!-- The section name should match the id attribute that you want to jump to -->
+  <a href="#mysectionname">LABEL</a>
+  .
+  .
+  .
+  <section id="schedule">...</section>
+</nav>
+```
+
 _Making it look good: Cascading Style Sheets_
-- File > New or `Cmd-n` to make a new file, save it to `styles.css` (CSS style sheet) in the same folder as `index.html`
+- File > New or `Cmd-n` to make a new file, save it to `styles.css` (CSS style sheet) in the same folder as `index.html`  
+- Link your stylesheet to your HTML file:  
+  `<link rel="stylesheet" type="text/css href="styles.css">`  
+
 CSS rule syntax:
+  ```
+    myselector {
+      property:value;
+    }
+  ```  
+See the `styles.css` file in the PredevelopedSources for many examples  
 
 CSS Resources
 - Color picker: [htmlcolorcodes.com](https://htmlcolorcodes.com/color-picker/)
 - Photos that are safe to use: [Unsplash.com] (https://unsplash.com/)
 
-_Making it do things_
+_Making it do things (animations, etc)_
 - File > New or `Cmd-n` to make a new file, save it to `script.js` (JavaScript)
 Javascript function syntax:
   ```javascript
   function function_name(argument) {
     // body...
   }
-  ```
-
+  ```  
 
 __Programming Practices__
 Accessibility
@@ -101,10 +138,10 @@ We want to encourage good programming practices. To make your website appealing 
 2. Check for at least 4.5:1 ratio of color contrast: https://webaim.org/resources/contrastchecker/
 3. Having good alternative text for images and descriptive link text is important!
     - Alt text in HTML image tags looks like this: `<img src="truegrit.jpg" alt="Chesapeake Bay Retriever True Grit, best mascot in Maryland">`
-    - Descriptive link text looks like this: `<a href="https://www.hackumbc.org/">HackUMBC Home Page 2019</a>`
+    - Descriptive link text looks like this: `<a href="https://www.hackumbc.org/">HackUMBC Home Page 2019</a>`  
 
 __Copyrights & Legal Stuff__
-1. Credit photos! Even though you should be using photos that are free, it's courteous to credit the photographer
+1. Credit photos! Even though photos from Unsplash are free, it's courteous to credit the photographer
 
 __Tips for Speed__
 HTML shortcuts in Sublime
