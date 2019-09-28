@@ -157,10 +157,13 @@ JavaScript shortcuts in Sublime
     }
     ```
 
-CSS shortcuts in Sublime
+CSS shortcuts in Sublime  
 1. There are none! Unless you install a package to autocomplete
 2. (I do __not recommend installing this during the workshop__)
 3. Here's a link: [Emmet] (https://packagecontrol.io/packages/Emmet)
 
 __FYI: Understanding all this__
 - How to Git: https://guides.github.com/activities/hello-world/
+
+__Presentation Slides__
+[Presentation Slides](https://docs.google.com/presentation/d/1H1J-vem8cPNo6lDoYmNzqXwnJ8cDNd7kBEQ8M50v6Z0/edit?usp=sharing)
