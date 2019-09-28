@@ -30,7 +30,7 @@ __Testing__
 - Find the `index.html` file in your file explorer and double click it. It should open in your default browser
 - You should see your changes in the tab
 
-__Debugging__
+__Debugging__  
 Are you not seeing something you want to see on your webpage? Or seeing something that you don't want to see?
 - In Chrome, right click > Inspect to pull up the developer console
 - In Firefox, go to Tools > Web Developer > Inspector
@@ -107,7 +107,7 @@ Navigation Bars in HTML
 
 _Making it look good: Cascading Style Sheets_
 - File > New or `Cmd-n` to make a new file, save it to `styles.css` (CSS style sheet) in the same folder as `index.html`  
-- Link your stylesheet to your HTML file:  
+- Link your stylesheet to your HTML header section:  
   `<link rel="stylesheet" type="text/css href="styles.css">`  
 
 CSS rule syntax:
@@ -118,21 +118,22 @@ CSS rule syntax:
   ```  
 See the `styles.css` file in the PredevelopedSources for many examples  
 
-CSS Resources
+CSS Resources  
 - Color picker: [htmlcolorcodes.com](https://htmlcolorcodes.com/color-picker/)
 - Photos that are safe to use: [Unsplash.com] (https://unsplash.com/)
 
 _Making it do things (animations, etc)_
-- File > New or `Cmd-n` to make a new file, save it to `script.js` (JavaScript)
+1. File > New or `Cmd-n` to make a new file, save it to `script.js` (JavaScript)
 Javascript function syntax:
   ```javascript
   function function_name(argument) {
     // body...
   }
   ```  
+2. Link the JavaScript file in your HTML header: `<script src="script.js"></script>`
 
-__Programming Practices__
-Accessibility
+__Programming Practices__  
+Accessibility:
 We want to encourage good programming practices. To make your website appealing to a variety of users, you should follow some compliance guidelines.
 1. Article with an easy-to-understand list of ADA compliance website issues (I recommend you skip to the issues): https://www.digitalauthority.me/resources/ada-compliance-website/
 2. Check for at least 4.5:1 ratio of color contrast: https://webaim.org/resources/contrastchecker/
@@ -140,10 +141,10 @@ We want to encourage good programming practices. To make your website appealing 
     - Alt text in HTML image tags looks like this: `<img src="truegrit.jpg" alt="Chesapeake Bay Retriever True Grit, best mascot in Maryland">`
     - Descriptive link text looks like this: `<a href="https://www.hackumbc.org/">HackUMBC Home Page 2019</a>`  
 
-__Copyrights & Legal Stuff__
-1. Credit photos! Even though photos from Unsplash are free, it's courteous to credit the photographer
+__Copyrights & Legal Stuff__  
+Credit photos! Even though photos from Unsplash are free, it's courteous to credit the photographer
 
-__Tips for Speed__
+__Tips for Speed__  
 HTML shortcuts in Sublime
 1. Auto Tags: With your saved .html file open, type `<ht` then hit tab to add standard HTML tags automatically
 2. Comments: use `Cmd-/` to comment out the current line
@@ -162,8 +163,10 @@ CSS shortcuts in Sublime
 2. (I do __not recommend installing this during the workshop__)
 3. Here's a link: [Emmet] (https://packagecontrol.io/packages/Emmet)
 
-__FYI: Understanding all this__
+__FYI: Understanding all this__  
+
 - How to Git: https://guides.github.com/activities/hello-world/
 
-__Presentation Slides__
-[Presentation Slides](https://docs.google.com/presentation/d/1H1J-vem8cPNo6lDoYmNzqXwnJ8cDNd7kBEQ8M50v6Z0/edit?usp=sharing)
+__Presentation Slides__  
+[Presentation Slides](https://docs.google.com/presentation/d/1H1J-vem8cPNo6lDoYmNzqXwnJ8cDNd7kBEQ8M50v6Z0/edit?usp=sharing)  
+[W3Schools](https://www.w3schools.com/): Lots of easy webdev documentation

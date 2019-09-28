@@ -13,7 +13,7 @@ nav a {
 	padding: 10px 0;
 	display: block;
 	float: left;
-	/*25% because we have four options taking out equal space*/
+	/*25% because we have four options taking up equal space*/
 	width: 25%;
 	text-align: center;
 	box-sizing: border-box;
