@@ -1,22 +1,24 @@
 
-# cseduHackUMBC19
-Resources for HackUMBC Intro to Web Development
-Presented by Computer Science Education Club
+# CSEduHackUMBC19
+Resources for HackUMBC Intro to Web Development  
+Presented by Computer Science Education Club  
 Developed by Zoee Leckron
 
 __We're doing everything fast, here are the notes!__
-- This repository will have all of our resources: (https://github.com/zleckron/cseduHackUMBC19.git)
-- Download Sublime3: [sublime.com/3](https://www.sublimetext.com/3)
-- Download Git: [git-scm.com] (https://git-scm.com/downloads)
+- This repository will have all of our resources (https://github.com/zleckron/cseduHackUMBC19.git)
+
+__Setup and Downloads__
+1. Download Sublime3: [sublime.com/3](https://www.sublimetext.com/3)
+2. Download Git: [git-scm.com](https://git-scm.com/downloads)
   (we will not be talking about SSH keys in this workshop)
-- Download Sublime Merge (for Git): [sublimemerge.com] (https://www.sublimemerge.com/)
-- Create a GitHub account: [github.com] (https://github.com/)
-- In the web version of GitHub, create a New repository
+3. Download Sublime Merge (for Git): [sublimemerge.com](https://www.sublimemerge.com/)
+4. Create a GitHub account: [github.com](https://github.com/)
+5. In the web version of GitHub, create a New repository
   *__IMPORTANT:__* Name your new repository to `username.github.io`, where `username` is your username on GitHub.
   (Otherwise hosting on Github will not work)
-- In the web version of GitHub, copy the HTTPS path to your repository
-- Open Sublime Merge and paste the copied HTTPS path into the Source URL field
-  If you don't see the Source URL field, go to File > Clone Repository.
+6. In the web version of GitHub, copy the HTTPS path to your repository
+7. Open Sublime Merge and paste the copied HTTPS path into the Source URL field
+  If you don't see the Source URL field, go to File > Clone Repository.  
   You can change the destination path just make sure you remember it.
 
 __In Sublime__
@@ -25,26 +27,26 @@ __In Sublime__
 - Try adding some words in between the `<title></title>` tags! Whatever you put between these tags will show up in the tab when you open the file (see __Testing__)
 
 __Testing__
-- Find the index.html file in your file explorer and double click it. It should open in your default browser
+- Find the `index.html` file in your file explorer and double click it. It should open in your default browser
 - You should see your changes in the tab
 
 __Debugging__
 Are you not seeing something you want to see on your webpage? Or seeing something that you don't want to see?
 - In Chrome, right click > Inspect to pull up the developer console
 - In Firefox, go to Tools > Web Developer > Inspector
-You can make small changes to your code in the inspector and see them rendered. This does not change the code in your html file(s)
+You can make small changes to your code in the inspector and see them rendered. This does not change the code in your html file(s).  
 This will open up the HTML source code, Styles (CSS, which we haven't talked about yet), and the Console for JavaScript (which we also haven't talked about yet)
 
 __Uploading to Git__
 - Open Sublime Merge. If it is not already open to the repository you cloned earlier, use File > Open Repository
-- You should see that there is 1 untracked file and that it is index.html
+- You should see that there is 1 untracked file and that it is `index.html`
 - Double click the Stage All button
 - You will see the option to Commit 1 File. You are required to add a commit message before committing. This message should help tell you (and anyone else) what change was made.
 - If you want to, confirm that the commit message and file changes are showing up in the web version of your repository (on Github.com)
 
 __Workflow__
 1. Make a change to your file(s) and save
-2. Open index.html in the browser and check it out (double click on the file as you did before)
+2. Open `index.html` in the browser and check it out (double click on the file as you did before)
     If you already have the file open in the browser, you can just refresh the page to see your changes
 3. Confirm that you want to keep these changes
 4. In Sublime Merge, follow the above directions in __Uploading to Git__
