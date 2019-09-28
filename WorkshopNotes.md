@@ -1,16 +1,25 @@
 __We're doing everything fast, here are the notes__
+- This repository will have all of our resources: (https://github.com/zleckron/cseduHackUMBC19.git)
 - Download Sublime3: [sublime.com/3](https://www.sublimetext.com/3)
 - Download Git: [git-scm.com] (https://git-scm.com/downloads)
+  (we will not be talking about SSH keys in this workshop)
+- Download Sublime Merge (for Git): [sublimemerge.com] (https://www.sublimemerge.com/)
 - Create a GitHub account: [github.com] (https://github.com/)
 - In the web version of GitHub, create a new repository
   *__IMPORTANT:__* Name your new repository to `username.github.io`, where `username` is your username on GitHub. No exceptions.
-- Download Sublime Merge (for Git): [sublimemerge.com] (https://www.sublimemerge.com/)
-
-- Navigate to this repository: https://github.com/zleckron/cseduHackUMBC19.git
+- In the web version of GitHub, copy the HTTPS path to your repository
+- Open Sublime Merge and paste the copied HTTPS path into the Source URL field
+  If you don't see the Source URL field, go to File > Clone Repository.
+  You can change the destination path just make sure you remember it.
 
 __In Sublime__
-- Make a file and save it as `index.html` (the "index" part of the name is not very significant but the html file extension is)
+- Make a file and save it as `index.html` (the "index" part of the name is not very significant but the html file extension is) __in your username.github.io__ folder
 - With your saved .html file open, type `<ht` then hit tab to add standard HTML tags automatically
+- Try adding some words in between the `<title></title>` tags!
+
+__Uploading to Git__
+- Open Sublime Merge. If it is not already open to the repository you just cloned, use File > Open Repository
+-
 
 _HTML Fast Facts!_
 1. Pretty much everything in HTML is in _tags_ enclosed in an opening and closing tag with angle brackets!
@@ -45,8 +54,6 @@ _Making it do things_
 
 
 __Testing__
-
-__Uploading to Git__
 
 __Programming Practices__
 Accessibility
