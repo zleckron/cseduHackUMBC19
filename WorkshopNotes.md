@@ -1,7 +1,12 @@
 __We're doing everything fast, here are the notes__
 - Download Sublime3: [sublime.com/3](https://www.sublimetext.com/3)
+- Download Git: [git-scm.com] (https://git-scm.com/downloads)
+- Create a GitHub account: [github.com] (https://github.com/)
+- In the web version of GitHub, create a new repository
+  *__IMPORTANT:__* Name your new repository to `username.github.io`, where `username` is your username on GitHub. No exceptions.
 - Download Sublime Merge (for Git): [sublimemerge.com] (https://www.sublimemerge.com/)
-- Clone _this_ repository: https://github.com/zleckron/cseduHackUMBC19.git
+
+- Navigate to this repository: https://github.com/zleckron/cseduHackUMBC19.git
 
 __In Sublime__
 - Make a file and save it as `index.html` (the "index" part of the name is not very significant but the html file extension is)
